@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Valor desconto</title>
+    <title>Valor final</title>
 </head>
 <body>
 <fieldset>
@@ -12,8 +12,10 @@
         <input type="number" name="n1" size="25" /><br />
         Digite 1 para pagar a vista e 2 para pagar a prazo:
         <input type="number" name="x" size="25" /><br />
+        Se for a prazo terá quantas parcelas:
+        <input type="number" name="y" size="25" /><br />
 
-		<button type="submit">Próximo</button>
+		<button type="submit">Calcular</button>
         <br />
     </form>
 </fieldset>
